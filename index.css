@@ -141,6 +141,7 @@
 
     article{
         position: absolute;top:50px  ; right: ;
+
     }
     body{
         background-image: url("./images/bg-mobile.png")  ; 
@@ -164,7 +165,7 @@
         align-content: flex-start;
         flex-direction:column;
         margin-top: 100px !important;
-         
+             overflow-x: hidden;
 
       }
     .dis2{
