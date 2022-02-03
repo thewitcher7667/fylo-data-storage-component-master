@@ -1,4 +1,4 @@
-@media (min-width: 1357px) {
+@media (min-width: 1357px) { 
     body{
         background-image: url("./images/bg-desktop.png")  ; 
         background-repeat:no-repeat;
@@ -13,7 +13,7 @@
     
         
         .gbm{
-            position: absolute;top:30s0px; right:250px;
+            position: absolute;top:300px; right:250px;
         float: right;
         
         background-color: rgb(213, 222, 230);
@@ -57,11 +57,12 @@
              box-sizing: border-box;
                 border-radius:5px 30% 5px 5px;
             }
-  }
   
+        }
   
+    
   /********** Medium devices only **********/
-  @media (min-width: 768px) and (max-width: 1357px) {
+  @media (min-width: 768px) and (max-width: 1356px) {
     body{
         background-image: url("./images/bg-desktop.png")  ; 
         background-repeat:no-repeat;
@@ -88,7 +89,7 @@
         position: relative;top: 450px; ;
     }
     .gbm{
-        position: absolute;top:650px; right:560px;
+        position: absolute;top:650px; right:400px;
     float: right;
     
     background-color: rgb(213, 222, 230);
@@ -134,15 +135,22 @@
   }
 
   
-  @media (min-width:319px),(max-width: 767px) {
+  @media (max-width: 765px)
+  {
+
+
+    article{
+        position: absolute;top:50px  ; right: ;
+    }
     body{
         background-image: url("./images/bg-mobile.png")  ; 
         background-repeat:no-repeat;
-        background-position:  top right center bottom ;
-        background-size: 100% 100%;
+        background-position:  ;
+        background-size: 1000px 1500px;
         background-color: hsl(229, 57%, 11%);
         color: white;
         margin: 0px; padding: 0px;
+       
     }
     
     
@@ -155,11 +163,12 @@
         justify-content: center;
         align-content: flex-start;
         flex-direction:column;
-        margin-top: 2px !important;
+        margin-top: 100px !important;
+         
 
       }
     .dis2{
-        position: relative;top: 450px; ;
+        position: relative;top: 450px; 
         
     }
     .gbm{
@@ -198,7 +207,7 @@
      .logoicon{
 
         
-        height: ;
+        
         padding: 1px;
         margin: 277px;
         padding-right: 50px;
@@ -241,7 +250,10 @@
     src: url(./font/);
 }
 *{
+   margin-right: 0px; 
     margin-top:5px ;
+    margin-bottom: 0px;
+    
 }
 
 .attribution { font-size: 11px; text-align: center; }
